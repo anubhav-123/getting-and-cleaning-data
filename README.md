@@ -18,21 +18,21 @@ Binds these files,
 Binds the data frames created for test and train set into one large dataset by rows.
 
 Extracts only the measurements on the mean and standard deviation for each measurement.
-*Finds the target features, which are the features with measurements about mean and standard deviation, and extracts them as well as those that indicate the 'subject' and 'activity' and creates a new data table only with the target variables.
+        1.Finds the target features, which are the features with measurements about mean and standard deviation, and extracts them as             well as those that indicate the 'subject' and 'activity' and creates a new data table only with the target variables.
 
 Uses descriptive activity names to name the activities in the data set.
-*Replace the variable about activity, that contains integers from 1 to 6, with a factor based on levels and labels contained in the 'activity_labels' data file.
+        1.Replace the variable about activity, that contains integers from 1 to 6, with a factor based on levels and labels contained in           the 'activity_labels' data file.
 
 Appropriately labels the data set with target variables with descriptive names.
-*Extracts the target variable names from 'features.txt'.
-*Corrects a typo that exists in some feature names, that is to replace 'BodyBody' that appears in the names of some features with just 'Body'.
-*Creates a new tidy dataset with the appropriate labels for the variable names.
+        1.Extracts the target variable names from 'features.txt'.
+        2. Corrects a typo that exists in some feature names, that is to replace 'BodyBody' that appears in the names of some features              with just 'Body'.
+        3. Creates a new tidy dataset with the appropriate labels for the variable names.
 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-*Group the tidy data table created in step 4, by 'subject' and 'activity'.
-*Summarize each variable to find the average for the grouped values.
-*Ungroup the data table.
-*Add descriptive names to the variables of the new tidy data table, by adding the prefix 'Avrg-' in the names of the target feature averages.
+        1. Group the tidy data table created in step 4, by 'subject' and 'activity'.
+        2. Summarize each variable to find the average for the grouped values.
+        3. Ungroup the data table.
+        4. Add descriptive names to the variables of the new tidy data table, by adding the prefix 'Avrg-' in the names of the target              feature averages.
 
 
 data in text file is written using:
